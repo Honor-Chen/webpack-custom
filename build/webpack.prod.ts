@@ -7,7 +7,7 @@ import TerserWebpackPlugin from 'terser-webpack-plugin'
 import CopyWebpackPlugin from 'copy-webpack-plugin'
 import { Configuration } from 'webpack'
 import { merge } from 'webpack-merge'
-import { join, resolve } from 'path'
+import { resolve } from 'path'
 
 import commonConfig from './webpack.common'
 

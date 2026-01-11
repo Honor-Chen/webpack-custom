@@ -20,7 +20,7 @@ module.exports = {
   // *对象或数组末尾是否添加逗号 none| es5| all
   trailingComma: 'none',
 
-  // *对象大括号直接是否有空格，默认为true，效果：{ foo: bar }
+  // *对象大括号两端是否有空格，默认为true，效果：{ foo: bar }
   bracketSpacing: true,
 
   // *箭头函数如果只有一个参数则省略括号

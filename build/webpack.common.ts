@@ -1,4 +1,4 @@
-import { AssetInfo, Configuration, DefinePlugin, PathData } from 'webpack'
+import { Configuration, DefinePlugin } from 'webpack'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 // *提取 CSS 样式到单独文件中
 import MiniCssExtractPlugin from 'mini-css-extract-plugin'

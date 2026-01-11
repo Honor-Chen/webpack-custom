@@ -1,12 +1,13 @@
 // *引入webpack打包速度分析插件
-const SpeedMeasurePlugin = require('speed-measure-webpack-plugin')
-// *引入 webpack 打包后分析插件
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 // *引入合并webpack配置方法
 import { merge } from 'webpack-merge'
 
 // *引入打包配置
 import prodConfig from './webpack.prod'
+
+const SpeedMeasurePlugin = require('speed-measure-webpack-plugin')
+// *引入 webpack 打包后分析插件
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 
 // *实例化分析插件
 const smp = new SpeedMeasurePlugin()
